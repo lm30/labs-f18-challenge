@@ -1,0 +1,6 @@
+<!doctype html>
+{% if getid %}
+	<h1>The pokemon with id {{ id }} is {{ name }}</h1>
+{% else %}
+	<h1>{{ name.title() }} has id {{ id }}</h1>
+{% endif %}
